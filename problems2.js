@@ -19,7 +19,6 @@ for (var i = 0; i < text.length; i++) {
   } else {
     afterArray[i] = text[i]; // アルファベットでない場合はそのまま追加
   }
-  //   afterArray[i] = String.fromCharCode(text[i].charCodeAt() + displaceNum);
 }
 
 afterArray = afterArray.join("");
